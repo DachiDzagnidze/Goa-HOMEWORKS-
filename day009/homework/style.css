@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #fff;
+  margin: 0;
+  padding: 40px;
+}
+.logo {
+ float: left;
+}
+
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+  
+ol li {
+  float: right;
+}
+
+ol li a {
+  border: solid #000000;
+  border-radius: 12px;
+  display: block;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  width: 90px;
+  margin: 20px 23px ;
+  margin: 20px 23px ;
+  height: 30px;
+  text-align: center;
+  padding-top: 3px;
+
+}
+
+ol li a:hover {
+  background-color: #7e7a7a;
+  color: #f1f1f1;
+}
+
+input[type=text] {
+    float: right;
+    display: block;
+    text-align: left;
+    width: 400px;
+    margin: 0;
+    padding: 14px;
+    border-radius: 8px;
+    margin-right: 50px;
+    margin-top: 10px;
+  }
+  .j {
+    background-color: #adabab;
+    border: solid white;
+    border-radius: 22px;
+    
+  }
+
+.o {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.first-card {
+  margin-top: 50px;
+  box-shadow: 0 8px 20px rgb(0, 0, 0, 0.88);
+  transition: transform 0.25s ease, box shadow 0.25s ease;
+  border-radius: 20px;
+  background: #fff;
+  padding: 20px;
+  width: 540px;
+  position: relative;
+  margin-left: 0;
+  transition: background-color 1s ease-out, transform 1s ease-out;
+}
+.first-card:hover {
+  transform: scale(1.1);
+}
+.second-card,.third-card,.forth-card,.fifth-card {
+  margin-top: 50px;
+  box-shadow: 0 8px 20px rgb(0, 0, 0, 0.88);
+  transition: transform 0.25s ease, box shadow 0.25s ease;
+  border-radius: 20px;
+  background: #fff;
+  padding: 20px;
+  width: 300px;
+  position: relative;
+  transition: background-color 1s ease-out, transform 1s ease-out;
+}
+
+.fifth-card:hover {
+ transform: scale(1.1);
+}
+.second-card:hover {
+  transform: scale(1.1);
+}
+.third-card:hover {
+  transform: scale(1.1);
+}
+.forth-card:hover {
+  transform: scale(1.1);
+}
+
+.first-img {
+  width: 500px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.k {
+    font-size: 22px;
+    color: #333;
+}
+
+
+.m {
+  font-size: 18px;
+  font-weight: 600;
+  color: #111;
+  margin: 8px 0 12px;
+  
+}
+
+.product-buttons {
+  /* justify-content: space-between; */
+  gap: 8px;
+}
+
+.btn {
+  flex: 1;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.btn-add {
+  background-color: #f1f1f1;
+  border: 2px solid black;
+  border-radius: 15px;
+  width: 110px;
+  height: 36px;
+  padding: auto;
+  transition: background-color 1s ease-out, transform 1s ease-out;
+}
+
+.btn-add:hover {
+  background-color: #333;
+   transform: scale(1.1);
+}
+
+.btn-buy {
+  background-color: black;
+  color: white;
+  border: 2px solid rgb(250, 250, 250);
+  border-radius: 15px;
+  width: 110px;
+  height: 36px;
+  padding: auto;
+  transition: background-color 1s ease-out, transform 1s ease-out;
+}
+
+.btn-buy:hover {
+  background-color: #333;
+   transform: scale(1.1);
+}
+
+.second-card {
+    float: right;
+}
+.a {
+    margin-top: 30px;
+}
+.s {
+    margin-top: 20px;
+}
+/* .q {
+    margin-top: 150px;
+} */
