@@ -22,7 +22,13 @@
 nums = [1,2,3,4,5]
 for i in range(len(nums[:])):
     print(nums[i])
-    
+
+# is same as:
+nums = [1,2,3,4,5]
+for i in range(len(nums)):
+    print(nums[i])
+
+
 # N2
 num = [1,2,3,4,5]
 for nums in num:
