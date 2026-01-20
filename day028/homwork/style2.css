@@ -6,7 +6,7 @@ header {
     height: 70px;
     margin-top: 0;
     display: flex;
-    align-items: center;      /* ვერტიკალურად ერთ ხაზზე */
+    align-items: center;      
     justify-content: space-between; /* ლოგო მარცხნივ, მენიუ მარჯვნივ */
     padding: 0 24px;
     height: 60px;
